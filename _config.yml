@@ -2,8 +2,8 @@ markdown: redcarpet
 pygments: true
 permalink: /:title
 
-url:
-baseurl:
+url: http://liaojinxing.github.io
+baseurl: http://liaojinxing.github.io
 
 redcarpet:
   extensions: [strikethrough, tables]
