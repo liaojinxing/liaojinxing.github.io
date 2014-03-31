@@ -1,4 +1,10 @@
-Auto Layout 文档
+---
+layout: post
+title: iOS AutoLayout
+---
+
+
+iOS中的相对布局：Auto Layout
 ================
 
 Autosizing mask存在的问题
