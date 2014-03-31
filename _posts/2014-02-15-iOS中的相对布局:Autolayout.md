@@ -1,11 +1,8 @@
 ---
 layout: post
-title: iOS AutoLayout
+title: iOS中的相对布局：AutoLayout
 ---
 
-
-iOS中的相对布局：Auto Layout
-================
 
 Autosizing mask存在的问题
 -------------------------
@@ -16,9 +13,11 @@ Autosizing mask存在的问题
 什么是Auto Layout?
 ------------------
 Auto Layout是由一系列的constraint构成的。constraint就是描述view在界面上的现实规则。
+
 ```
 view1.attribute = view2.attribute * m + b
 ```
+
 attribute可以是以下其中之一：left, right, top, bottom, leading, trailing, width, height, centerX, centerY, and baseline.
 可以看iOS developer library文档：[iOS Developer Library]
 
@@ -43,16 +42,18 @@ Auto Layout的使用
  * [view setTranslatesAutoresizingMaskIntoConstraints:NO];  创建view时，会自动的带上AutoresizingMask。如果没有设置的话，在AutoLayout中，会将mask翻译成constraints。遗憾的是，这往往不是你要的，这些constraint很可能会破坏你设置的constraints.
 
  * set constraint: 
+
 ```
 NSLayoutConstraint *myConstraint =[NSLayoutConstraint
-                                     constraintWithItem:_button
+                            constraintWithItem:_button
                                      attribute:NSLayoutAttributeCenterY
                                      relatedBy:NSLayoutRelationEqual
-                                     toItem:superView
+                                        toItem:superView
                                      attribute:NSLayoutAttributeCenterY
-                                     multiplier:1.0
-                                     constant:0];  
+                                    multiplier:1.0
+                                      constant:0];  
 ```
+
 上面这个描述的就是：_button.CenterY = superView.CenterY 
 
  * add constraint:   [superView addConstraint:myConstraint];  需要将constraint加上。
@@ -63,9 +64,11 @@ NSLayoutConstraint *myConstraint =[NSLayoutConstraint
 比如FLKAutolayout，KeepLayout, UIView-AutoLayout等。
 
 推荐[FLKAutolayout]。比如：
+
 ```
   [_label constrainLeadingSpaceToView:_button predicate:@“>=10”];
 ```
+
 就可以设置_label和_button的左右间距>=10。
 
 #### xib和programming的选择：
