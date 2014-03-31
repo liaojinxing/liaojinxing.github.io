@@ -1,99 +1,132 @@
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Brume</title>
+    <title>Love your code</title>
     <link></link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <description>It's simple. It's easy to use. It's a Jekyll theme.</description>
+    <description>This is liaojinxing's personal blog.</description>
     <language>en-us</language>
-    <pubDate>Mon, 31 Mar 2014 14:32:39 +0800</pubDate>
-    <lastBuildDate>Mon, 31 Mar 2014 14:32:39 +0800</lastBuildDate>
+    <pubDate>Mon, 31 Mar 2014 16:50:29 +0800</pubDate>
+    <lastBuildDate>Mon, 31 Mar 2014 16:50:29 +0800</lastBuildDate>
 
     
       <item>
-        <title>Demo post</title>
-        <link>/demo-post</link>
-        <pubDate>Fri, 07 Mar 2014 00:00:00 +0800</pubDate>
-        <author>Aigars Dzerviniks</author>
-        <description>&lt;p&gt;Praesent tincidunt vestibulum sem nec eleifend. Pellentesque adipiscing mollis adipiscing. Sed ipsum sem, eleifend eget dapibus in, tincidunt ut dolor. Curabitur gravida urna leo, eget auctor turpis feugiat non. Vivamus pharetra, lorem id ullamcorper rutrum, eros erat condimentum erat, ac dignissim lorem nisi nec nunc. Praesent tellus mi, volutpat quis nisl et, consectetur blandit nibh. Nulla sit amet nulla non odio sodales mollis elementum sed sem. Aenean et laoreet enim. Curabitur vulputate, mi rutrum commodo condimentum, enim nunc feugiat magna, vel rutrum sapien ante nec ante. Donec nec nibh placerat, molestie felis ac, vulputate arcu. Donec condimentum pellentesque nibh vel tincidunt. Fusce sem ipsum, varius at laoreet vitae, accumsan sed nisl. Nunc eget viverra diam. Aliquam pulvinar, enim id commodo tincidunt, risus lectus pharetra lacus, et semper enim ligula ut mauris. Sed vitae sollicitudin ante. In sollicitudin placerat dui et sagittis.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas egestas leo id tortor feugiat, sit amet cursus diam mollis. Nunc sit amet tellus est. Nunc lacus nisl, gravida ut aliquam vel, molestie eget odio. Nulla facilisi. Ut sed libero pharetra nunc volutpat hendrerit. Mauris eget mi adipiscing, congue tellus ut, scelerisque eros. Phasellus ullamcorper dictum tellus nec pretium.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Integer molestie orci ante, nec dictum metus aliquam ut. Donec id tristique enim. Quisque tellus est, dignissim ut justo ac, volutpat fringilla mi. Duis ultricies nec sapien vitae blandit. &lt;strong&gt;Suspendisse sed est mi&lt;/strong&gt;. Mauris varius sapien vel nulla accumsan, id tincidunt ipsum ultrices. Sed eget magna mauris. Etiam porttitor lacus ullamcorper lacus tincidunt aliquam. Sed feugiat congue fringilla. Nunc velit diam, vulputate sed metus vitae, iaculis tempor arcu. Proin consectetur a erat in dignissim.&lt;/p&gt;
-
-&lt;table&gt;&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Tables&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;Are&lt;/th&gt;
-&lt;th align=&quot;right&quot;&gt;Cool&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;col 3 is&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;right-aligned&lt;/td&gt;
-&lt;td align=&quot;right&quot;&gt;$1600&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;col 2 is&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;centered&lt;/td&gt;
-&lt;td align=&quot;right&quot;&gt;$12&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;zebra stripes&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;are neat&lt;/td&gt;
-&lt;td align=&quot;right&quot;&gt;$1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-
-&lt;p&gt;Pellentesque adipiscing mollis adipiscing.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Nulla sit amet nulla non odio sodales mollis elementum sed sem.&lt;/li&gt;
-&lt;li&gt;Donec id tristique enim. Quisque tellus est, dignissim ut justo ac, volutpat fringilla mi.&lt;/li&gt;
-&lt;li&gt;Nam luctus erat dolor, non viverra nulla varius at.&lt;/li&gt;
+        <title>github上iOS优秀开源代码</title>
+        <link>/iOS%E4%BC%98%E7%A7%80%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81</link>
+        <pubDate>Sat, 01 Mar 2014 00:00:00 +0800</pubDate>
+        <author>liaojinxing</author>
+        <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/AFNetworking/AFNetworking&quot;&gt;AFNetworking&lt;/a&gt;: 说起iOS，说起开源，不得不提&lt;a href=&quot;https://github.com/mattt&quot;&gt;Mattt Thompson&lt;/a&gt;， 一个神一样的男人。Github上star数最多的Objective-C项目AFNetworking就出自他手下。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/facebook/Shimmer&quot;&gt;Shimmer&lt;/a&gt;: An easy way to add a simple shimmering effect to any view in an iOS app, which is particularly useful as an unobtrusive loading indicator.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/facebook/Tweaks&quot;&gt;Tweaks&lt;/a&gt;: 有了这个就不用怕设计师分分钟改颜色，改大小，改各种小的交互了。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/twitter/CocoaSPDY&quot;&gt;CocoaSPDY&lt;/a&gt;: 基本不用怎么修改就可以让app使用SPDY协议。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/MatthewYork/DateTools&quot;&gt;DateTools&lt;/a&gt;: 关于日期的各种操作&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/MatthewYork/MYBlurIntroductionView&quot;&gt;MYBlurIntroductionView&lt;/a&gt;: 轻松搞定开机画面&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/andreamazz/AMScrollingNavbar&quot;&gt;AMScrollingNavbar&lt;/a&gt;: 可缩放的NavigationBar&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ccgus/fmdb&quot;&gt;fmdb&lt;/a&gt;: sqlite的objc wrapper&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/liaojinxing/HybridBridge&quot;&gt;HybridBridge&lt;/a&gt;: iOS+web混合开发实践。提供模板资源管理，并基于JavaScriptCore实现JavaScript和Objective-C通讯的中间库。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/liaojinxing/EasyImage&quot;&gt;EasyImage&lt;/a&gt;: 各种图片的处理。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Curabitur nec ullamcorper dui, blandit aliquet ipsum. Integer suscipit odio quis eros fermentum auctor. Sed tincidunt quam eleifend, egestas erat vulputate, tincidunt metus. Maecenas gravida sodales mi nec posuere. Cras vel nisi condimentum, hendrerit lacus sed, scelerisque ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc convallis vestibulum erat, quis porta tellus. &lt;em&gt;In lorem erat, sollicitudin varius posuere id, molestie ac eros&lt;/em&gt;. Fusce luctus tellus vitae vulputate venenatis. Sed scelerisque bibendum interdum. Sed pretium commodo ultrices. Fusce luctus quam id porttitor vulputate. Integer ornare consectetur diam eget rutrum. Etiam eget sapien metus.&lt;/p&gt;
+&lt;h3&gt;这篇博客会不断更新和充实。记录每日发现的优秀开源代码。&lt;/h3&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>iOS中的相对布局：AutoLayout</title>
+        <link>/iOS%E4%B8%AD%E7%9A%84%E7%9B%B8%E5%AF%B9%E5%B8%83%E5%B1%80%3AAutolayout</link>
+        <pubDate>Sat, 15 Feb 2014 00:00:00 +0800</pubDate>
+        <author>liaojinxing</author>
+        <description>&lt;h2&gt;Autosizing mask存在的问题&lt;/h2&gt;
 
-&lt;dl&gt;
-  &lt;dt&gt;Ornare&lt;/dt&gt;
-  &lt;dd&gt;Cras vel nisi condimentum, hendrerit lacus sed, scelerisque ipsum.&lt;/dd&gt;
-  &lt;dt&gt;Convallis&lt;/dt&gt;
-  &lt;dd&gt;In lorem erat, sollicitudin varius posuere id, molestie ac eros&lt;/dd&gt;
-&lt;/dl&gt;
+&lt;p&gt;适当地设置Autosizing mask，可以使得当superview的size变化时，view也可以从一定程度上适应。之所以说是一定程度，是因为Autosizing mask只是一个定性的适应，view只知道需要resize了，但它并不知道要resize到什么程度，无法定量。
+&lt;a href=&quot;http://www.raywenderlich.com/50317/beginning-auto-layout-tutorial-in-ios-7-part-1&quot;&gt;Autolayout教程1&lt;/a&gt; 的开篇有一个很好的例子来说明Autosizing mask的局限性。&lt;/p&gt;
 
-&lt;p&gt;Proin at libero id lorem fermentum elementum quis eget est.&lt;/p&gt;
+&lt;h2&gt;什么是Auto Layout?&lt;/h2&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Nam bibendum turpis massa, at accumsan justo fermentum ac.&lt;/li&gt;
-&lt;li&gt;Nulla non nulla ut ante condimentum mattis vel at lectus.&lt;/li&gt;
-&lt;li&gt;Etiam eget tortor tincidunt, iaculis ligula a, tristique massa. Fusce sed congue lorem, interdum sodales nisl.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Auto Layout是由一系列的constraint构成的。constraint就是描述view在界面上的现实规则。&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;view1.attribute = view2.attribute * m + b
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;attribute可以是以下其中之一：left, right, top, bottom, leading, trailing, width, height, centerX, centerY, and baseline.
+可以看iOS developer library文档：&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/userexperience/conceptual/AutolayoutPG/AutoLayoutConcepts/AutoLayoutConcepts.html#//apple_ref/doc/uid/TP40010853-CH14-SW1&quot;&gt;iOS Developer Library&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Etiam consequat euismod ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla pellentesque ipsum vulputate, pellentesque nisl vitae, lacinia sem. Praesent auctor felis et odio ultrices, nec tempor elit lobortis. Etiam ornare massa non risus luctus, id iaculis lacus egestas. Pellentesque massa dolor, mattis id lobortis eget, tristique vitae est.&lt;/p&gt;
+&lt;h2&gt;Auto Layout的强大之处&lt;/h2&gt;
 
-&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;可以很好的适应屏幕大小的变化。不需要为横屏、竖屏或者iphone和ipad做单独设置。&lt;/li&gt;
+&lt;li&gt;constraint的设置除了支持常量之外，还支持不等式，这就更灵活了。可以设置优先级，当不同的constraint之间存在冲突时，可以通过优先级来选择。&lt;/li&gt;
+&lt;li&gt;intrinsic content size。比如UILabel可以根据text自动适应宽高。可以告别过去先根据text计算label的宽高，再设置frame的时代了。&lt;/li&gt;
+&lt;li&gt;Auto layout在动画中也有用武之地。动画中视图变化较为频繁，view size改变时，其他view也很好的适应。比如类似于facebook paper的效果。&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Nam vulputate leo vitae libero vehicula, id tincidunt velit malesuada. In vel ornare nisi, id semper turpis. Vivamus erat elit, venenatis quis dui at, convallis suscipit sapien. Nunc in nisi scelerisque, aliquam mauris porttitor, facilisis ligula. Vestibulum cursus erat ac turpis bibendum, id pulvinar dolor dapibus. Proin vitae justo et velit imperdiet ultrices id id odio. Cras adipiscing ante vel mauris lobortis rutrum. Aenean eu felis est. In lacinia porttitor risus non sagittis.&lt;/p&gt;
+&lt;h2&gt;Auto Layout的使用&lt;/h2&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Greeter&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;vi&quot;&gt;@message&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;h4&gt;使用xib:&lt;/h4&gt;
 
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;greet&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.raywenderlich.com/50317/beginning-auto-layout-tutorial-in-ios-7-part-1&quot;&gt;Autolayout教程1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.raywenderlich.com/50317/beginning-auto-layout-tutorial-in-ios-7-part-2&quot;&gt;Autolayout教程2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;span class=&quot;n&quot;&gt;john&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Greeter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Hello, World&amp;#39;&lt;/span&gt;
+&lt;h4&gt;使用代码：&lt;/h4&gt;
 
-&lt;span class=&quot;n&quot;&gt;john&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;greet&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;在代码中设置constraint有三步：&lt;/p&gt;
 
-&lt;p&gt;Sed imperdiet interdum ultrices. Phasellus iaculis porttitor lorem nec scelerisque. Suspendisse eros urna, adipiscing vel luctus at, feugiat sit amet arcu. Aliquam porttitor ut urna pellentesque sagittis. Donec pellentesque venenatis diam sit amet cursus. Etiam luctus, metus quis gravida fermentum, tortor arcu consequat metus, eget viverra augue risus ac dui. Fusce faucibus scelerisque quam eu sagittis. Sed sit amet sapien non augue lobortis adipiscing. Sed sagittis at lectus eu tempus. Nulla non nulla ut ante condimentum mattis vel at lectus. Nulla ultricies dui et urna semper ultrices. Sed neque ante, dictum in dignissim luctus, facilisis ornare odio. Aenean tempor ultrices magna non pharetra. Curabitur vulputate nec est aliquet suscipit. Etiam ipsum sapien, dictum quis tristique vel, pretium at elit.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;[view setTranslatesAutoresizingMaskIntoConstraints:NO];  创建view时，会自动的带上AutoresizingMask。如果没有设置的话，在AutoLayout中，会将mask翻译成constraints。遗憾的是，这往往不是你要的，这些constraint很可能会破坏你设置的constraints.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;set constraint: &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;NSLayoutConstraint *myConstraint =[NSLayoutConstraint
+                            constraintWithItem:_button
+                                     attribute:NSLayoutAttributeCenterY
+                                     relatedBy:NSLayoutRelationEqual
+                                        toItem:superView
+                                     attribute:NSLayoutAttributeCenterY
+                                    multiplier:1.0
+                                      constant:0];  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;上面这个描述的就是：_button.CenterY = superView.CenterY &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;add constraint:   [superView addConstraint:myConstraint];  需要将constraint加上。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;可以看这个例子：&lt;a href=&quot;http://www.techotopia.com/index.php/Implementing_iOS_6_Auto_Layout_Constraints_in_Code&quot;&gt;用代码实现AutoLayout&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;看起来还是有点烦琐的。但是有一些第三方库做了封装，可以更方便的用代码来创建constraint。
+比如FLKAutolayout，KeepLayout, UIView-AutoLayout等。&lt;/p&gt;
+
+&lt;p&gt;推荐&lt;a href=&quot;https://github.com/dkduck/FLKAutoLayout&quot;&gt;FLKAutolayout&lt;/a&gt;。比如：&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;  [_label constrainLeadingSpaceToView:_button predicate:@“&amp;gt;=10”];
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;就可以设置&lt;em&gt;label和&lt;/em&gt;button的左右间距&amp;gt;=10。&lt;/p&gt;
+
+&lt;h4&gt;xib和programming的选择：&lt;/h4&gt;
+
+&lt;p&gt;看个人习惯，我觉得用xib更方便一些。AutoLayout的核心在于设置constraint，而用xib相比于用代码可以得到更多的好处：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;可以清楚地看到constraint在视图上的变化&lt;/li&gt;
+&lt;li&gt;autolayout必须有充分的constraint去计算，当constraint不够计算，或者constraint过多导致无法计算时，xcode会有提示，并给出修改建议。&lt;/li&gt;
+&lt;li&gt;Resolve Auto Layout Issues.当有冲突的时候，可以看到显示线的颜色。并只需要update Frames或者update constraint就能解决大部分的问题。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;用代码也有一些好处：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;实现起来比较简单，上手快。xib操作起来还是要先熟悉一会的，大部分程序员还是更习惯用代码吧。&lt;/li&gt;
+&lt;li&gt;当constraint很复杂时，使用代码调试起来更方便。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Auto Layout在实际项目中的使用&lt;/h2&gt;
+
+&lt;p&gt;可以参照这个&lt;a href=&quot;http://code.dapps.douban.com/Jaeger-iPhone/pull/191/&quot;&gt;电影怪兽使用Autolayout的PR&lt;/a&gt;
+把电影怪兽的评论列表改成Auto Layout，在这里得到的明显好处是：确定好label之间的相对关系（constraint），使用intrinsic content size，就不需要再去计算label的宽度和高度再设置frame了。&lt;/p&gt;
+
+&lt;h2&gt;一些demo&lt;/h2&gt;
+
+&lt;p&gt;本项目里有一个使用xib来做autolayout布局的例子，和一个使用代码的简单例子。
+还可以参考&lt;a href=&quot;https://github.com/caoimghgin/TableViewCellWithAutoLayout&quot;&gt;Autolayout布局TableViewCell&lt;/a&gt;&lt;/p&gt;
 </description>
       </item>
     
