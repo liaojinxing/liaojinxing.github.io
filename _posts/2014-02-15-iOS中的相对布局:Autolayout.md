@@ -83,15 +83,8 @@ NSLayoutConstraint *myConstraint =[NSLayoutConstraint
  - 实现起来比较简单，上手快。xib操作起来还是要先熟悉一会的，大部分程序员还是更习惯用代码吧。
  - 当constraint很复杂时，使用代码调试起来更方便。
 
-
-Auto Layout在实际项目中的使用
-----------------------------
-可以参照这个[电影怪兽使用Autolayout的PR]
-把电影怪兽的评论列表改成Auto Layout，在这里得到的明显好处是：确定好label之间的相对关系（constraint），使用intrinsic content size，就不需要再去计算label的宽度和高度再设置frame了。
-
 一些demo
 --------
-本项目里有一个使用xib来做autolayout布局的例子，和一个使用代码的简单例子。
 还可以参考[Autolayout布局TableViewCell]
 
 
@@ -99,6 +92,5 @@ Auto Layout在实际项目中的使用
 [Autolayout教程1]:http://www.raywenderlich.com/50317/beginning-auto-layout-tutorial-in-ios-7-part-1
 [Autolayout教程2]:http://www.raywenderlich.com/50317/beginning-auto-layout-tutorial-in-ios-7-part-2
 [用代码实现AutoLayout]:http://www.techotopia.com/index.php/Implementing_iOS_6_Auto_Layout_Constraints_in_Code
-[电影怪兽使用Autolayout的PR]:http://code.dapps.douban.com/Jaeger-iPhone/pull/191/
 [Autolayout布局TableViewCell]:https://github.com/caoimghgin/TableViewCellWithAutoLayout
 [FLKAutolayout]:https://github.com/dkduck/FLKAutoLayout
