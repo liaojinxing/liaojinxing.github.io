@@ -3,9 +3,10 @@ layout: page
 title: About me
 ---
 
-- iOS development engineer.
-- My released iOS works on App Store:[豆瓣], [红桃九], [萌小幸], [懒人笔记]
-- email: jinxingliao@gmail.com
+- iOS Engineer@LinkedIn
+- Email: jinxingliao@gmail.com
+- Chitu ID: liaojinxing
+- Wechat ID: xibushana001
 - Follow me on [github]
 
 [github]:https://github.com/liaojinxing
