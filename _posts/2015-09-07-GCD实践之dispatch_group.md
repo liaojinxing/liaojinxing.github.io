@@ -1,7 +1,8 @@
 ---
 layout: post
-title:GCD实践之dispatch_group 
+title: GCD实践之dispatch_group 
 ---
+
 
 ## 发一条动态
 
@@ -24,14 +25,16 @@ title:GCD实践之dispatch_group
 
 小明可能这样写：
 
-	sendPhoto(image1, success:^(NSString *url){
-     	sendPhoto(image2, success:^(NSString *url) {
-       	   sendPhoto(image3, success:^(NSString *url) {
-             	     .......
-               	     postFeed(imageURLs, text);
-          	});
-     	});
-	});
+```
+sendPhoto(image1, success:^(NSString *url){
+    sendPhoto(image2, success:^(NSString *url) {
+       	sendPhoto(image3, success:^(NSString *url) {
+            .......
+            postFeed(imageURLs, text);
+        });
+    });
+});
+```
 
 这样完全就是串行，发个动态要半天，老板要哭了！
 
@@ -45,31 +48,31 @@ dispatch_group提供了多个block之间的同步机制，可以在多个block�
 
 于是，小红改了代码：
 
-	NSMutableArray *imageURLs= [NSMutableArray array];
-	dispatch_group_t group = dispatch_group_create();                    // 1
-	for (UIImage *image in images) {
-    	 dispatch_group_enter(group);                                    // 2
-     	 sendPhoto(image, success:^(NSString *url) {
-        	[imageURLs addObject:url];
-         	dispatch_group_leave(group);                                 // 3
-     	});
-	}
-	dispatch_group_notify(group, dispatch_get_global_queue(), ^{         // 4
-    	postFeed(imageURLs, text);                       
-	});
-	
+```
+NSMutableArray *imageURLs= [NSMutableArray array];
+dispatch_group_t group = dispatch_group_create();                    // 1
+for (UIImage *image in images) {
+    dispatch_group_enter(group);                                    // 2
+    sendPhoto(image, success:^(NSString *url) {
+        [imageURLs addObject:url];
+        dispatch_group_leave(group);                                 // 3
+    });
+}
+dispatch_group_notify(group, dispatch_get_global_queue(), ^{         // 4
+    postFeed(imageURLs, text);
+});
+```
+
 1. 首先创建一个dispatch_group
-2. dispatch_group_enter通知group说你的任务要开始了，dispatch_group_leave则表示我做完了。需要注意的是，enter和leave必须配对。
-3. 当group中所有的任务都执行完，dispatch_group_notify收到通知，现在终于可以发布动态了。
+2. `dispatch_group_enter`通知group说你的任务要开始了，`dispatch_group_leave`则表示我做完了。需要注意的是，enter和leave必须配对。
+3. 当group中所有的任务都执行完，`dispatch_group_notify`收到通知，现在终于可以发布动态了。
 
 对比小明和小红的代码，小明的模型是这样的：
 
-![Smaller icon](https://raw.githubusercontent.com/liaojinxing/liaojinxing.github.io/master/ScreenShot/xiaoming_dispatch_group_model.png "xiaoming_dispatch_group_model")
-
+<img src="https://raw.githubusercontent.com/liaojinxing/liaojinxing.github.io/master/ScreenShot/xiaoming_dispatch_group_model.png" alt="小明的代码" width="4jjjjjjjj00px" hspace="10"/>
 
 小红的是这样的：
 
-![Smaller icon](https://raw.githubusercontent.com/liaojinxing/liaojinxing.github.io/master/ScreenShot/xiaohong_dispatch_group_model.png "xiaohong_dispatch_group_model")
-
+<img src="https://raw.githubusercontent.com/liaojinxing/liaojinxing.github.io/master/ScreenShot/xiaohong_dispatch_group_model.png" alt="小红的代码" width="150px" hspace="10"/>
 
 嗯，大家都喜欢小红。
