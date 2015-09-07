@@ -69,7 +69,7 @@ dispatch_group_notify(group, dispatch_get_global_queue(), ^{         // 4
 
 对比小明和小红的代码，小明的模型是这样的：
 
-<img src="https://raw.githubusercontent.com/liaojinxing/liaojinxing.github.io/master/ScreenShot/xiaoming_dispatch_group_model.png" alt="小明的代码" width="4jjjjjjjj00px" hspace="10"/>
+<img src="https://raw.githubusercontent.com/liaojinxing/liaojinxing.github.io/master/ScreenShot/xiaoming_dispatch_group_model.png" alt="小明的代码" width="400px" hspace="10"/>
 
 小红的是这样的：
 
