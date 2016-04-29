@@ -6,8 +6,9 @@ title: About me
 - iOS Engineer@LinkedIn
 - Email: jinxingliao@gmail.com
 - Chitu ID: liaojinxing
-- Wechat ID: xibushana001
 - Follow me on [github]
+- Scan to subscribe my Wechat articles:
+<img src="https://raw.githubusercontent.com/liaojinxing/liaojinxing.github.io/master/ScreenShot/wechat_qr.jpg" alt="Subscription" width="250px" hspace="10"/>
 
 [github]:https://github.com/liaojinxing
 [萌小幸]:https://itunes.apple.com/cn/app/meng-xiao-xing-zhi-neng-liao/id954973520?mt=8
