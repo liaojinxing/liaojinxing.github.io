@@ -8,6 +8,7 @@ title: About me
 - Chitu ID: liaojinxing
 - Follow me on [github]
 - Scan to subscribe my Wechat articles:
+
 <img src="https://raw.githubusercontent.com/liaojinxing/liaojinxing.github.io/master/ScreenShot/wechat_qr.jpg" alt="Subscription" width="250px" hspace="10"/>
 
 [github]:https://github.com/liaojinxing
